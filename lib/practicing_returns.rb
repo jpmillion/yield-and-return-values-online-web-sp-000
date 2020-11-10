@@ -7,6 +7,7 @@ def hello(array)
     new_list.push(yield(array[i]))
     i += 1
   end
+  return new_list
 end
 
 hello(["Tim", "Tom", "Jim"]) { |name| "Hi, #{name}" }
