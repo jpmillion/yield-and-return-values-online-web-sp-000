@@ -11,3 +11,5 @@ def hello(array)
 end
 
 a = hello(["Tim", "Tom", "Jim"]) { |name| "Hi, #{name}" }
+
+a
