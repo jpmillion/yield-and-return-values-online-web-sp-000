@@ -10,6 +10,5 @@ def hello(array)
   return new_list
 end
 
-a = hello(["Tim", "Tom", "Jim"]) { |name| "Hi, #{name}" }
+hello(["Tim", "Tom", "Jim"]) { |name| "Hi, #{name}" }
 
-puts a
